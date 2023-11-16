@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clase 2: formularios</title>
+</head>
+<body>
+    <div>
+        <form>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" placeholder="Escriba su nombre aquí" required/>
+        <br/>
+        <br/>
+        <label for="apellido">Apellido:</label>
+        <input type="text" id="apellido" placeholder="Escriba su apellido aquí" required/>
+        <br/>
+        <br/>
+        <label for="edad">Edad:</label>
+        <input type="number" id="edad" placeholder="Escriba su edad aquí" required/>
+        <br/>
+        <br/>
+        <label for="email">Email:</label>
+        <input type="email" id="email" placeholder="Escriba su email aquí" required/>
+        <br/>
+        <br/>
+        <label for="password">Password:</label>
+        <input type="password" id="password" placeholder="Escriba su password aquí" required/>
+        <br/>
+        <br/>
+        <input type="checkbox" id="checkbox" placeholder="Escriba su checkbox aquí" required/>
+        <label for="checkbox">Acepto términos y condiciones</label>
+        <br/>
+        <br/>
+        <input type="checkbox" id="termsAndCondition" placeholder="Escriba su checkbox aquí" checked/>
+        <label for="termsAndCondition">Recibir newslatter </label>
+        <br/>
+        <br/>
+        <input type="radio" id="masculino" name ="gender"/>
+        <label for="masculino">Masculino </label>
+        <br/>
+        <input type="radio" id="femenino" name ="gender"/>
+        <label for="femenino">Femenino </label>
+        <br/>
+        <input type="radio" id="otro" name ="gender"/>
+        <label for="otro">Otro 
+            <label for="ingresar"></label>
+            <input type="text" id="ingresar" placeholder="Espicificar"/>
+        <br/> 
+        </label>
+        <br/>
+        <br/>
+        <p>Jugamos?</p>
+        <select>
+            <option value="none"></option>
+            <option value="piedra">Piedra</option>
+            <option value="papel">Papel</option>
+            <option value="tijera">Tijera</option>
+        </select>
+        <br/>
+        <br/>
+        <label for="comment">Deje su comentario</label>
+        <br>
+        <textarea id="comment" placeholder="Comentario" cols="30" rows="10" required></textarea>
+        <br>
+        <br>
+        <input type="submit" value="Enviar">
+        <button type="submit">Enviar</button>
+        </form>
+    </div>
+</body>
+</html>
